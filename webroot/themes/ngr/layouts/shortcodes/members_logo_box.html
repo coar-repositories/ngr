@@ -1,9 +1,0 @@
-<div class="members-logo-box">
-  <center><h4>DCMI's work is supported, promoted and improved by <a href="/support/">member organisations</a> around the world</h4></center>
-  {{$members := where .Site.RegularPages "Section" "members"}}
-  {{ range $members }}
-    <a href="{{.Params.home_url}}">
-      <img src="{{.Params.logo}}" style="max-width: {{.Params.logo_width}}px; margin-right: 10px"/>
-    </a>
-  {{end}}
-</div>
