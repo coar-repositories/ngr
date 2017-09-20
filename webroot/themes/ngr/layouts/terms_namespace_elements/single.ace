@@ -1,0 +1,33 @@
+{{ partial "header" . }}
+div.row-fluid
+  div.col-xs-12
+    h1 {{.Title}}
+    table
+      tr
+        td.field-name URI:
+        td {{.Params.uri}}
+      tr
+        td.field-name Label:
+        td {{.Params.label}}
+      tr
+        td.field-name Definition:
+        td {{.Params.definition}}
+      tr
+        td.field-name Status:
+        td {{.Params.status}}
+      tr
+        td.field-name Type of Term:
+        td {{.Params.type_of_term}}
+    h2 Notes
+    {{.Content}}
+
+    h2 History
+    ul
+    {{range .Params.history}}
+      li
+        {{.date_modified}}
+        | &nbsp;
+        a href={{.decision}} Changes
+    {{end}}
+
+{{ partial "footer" . }}

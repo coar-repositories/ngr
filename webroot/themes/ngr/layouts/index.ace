@@ -1,0 +1,33 @@
+{{ partial "header" . }}
+
+div.row-fluid
+  div class="col-sm-9 col-xs-12"
+    {{ $news_items := where .Site.RegularPages "Type" "news" }}
+    {{ $featured_news_items := $news_items | intersect (where .Data.Pages "Params.featured" "eq" true) }}
+    {{ range first 3 $featured_news_items }}
+      h2 {{.Title}}
+      {{.Date.Format "Monday, January 02, 2006"}}
+      br
+      br
+      {{.Content}}
+    {{end}}
+    hr
+    {{.Content}}
+  div class="col-sm-3 col-xs-12"
+    {{ partial "homepage_sidebar_feature" . }}
+    h2 Recent announcements
+    {{ $unfeatured_news_items := $news_items | intersect (where .Data.Pages "Params.featured" "ne" true) }}
+    {{ range first 3 $unfeatured_news_items }}
+      {{.Date.Format "Monday, January 02, 2006"}}
+      br
+      a.post-title href="{{.Permalink}}"
+        {{.Title}}
+      br
+      br
+    {{end}}
+    hr
+    h2 DCMI is a project of
+    a href="/about/reshaping/"
+      img src="/images/logos/asist_with_tagline.jpg" style="max-width: 90%"
+
+{{ partial "footer" . }}
