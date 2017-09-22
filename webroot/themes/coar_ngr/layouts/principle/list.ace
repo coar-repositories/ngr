@@ -1,0 +1,16 @@
+{{ partial "header" . }}
+
+div.row-fluid
+  div class="col-sm-8 col-xs-12"
+    h1 About the principles
+    {{.Content}}
+  div class="col-sm-4 col-xs-12"
+    h1 List of defined principles
+    ul
+      {{ range (where $.Site.RegularPages "Type" "principle") }}
+        li
+          a href="{{.Permalink}}"
+            {{.Title}}
+      {{ end }}
+
+{{ partial "footer" . }}

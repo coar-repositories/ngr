@@ -1,5 +1,5 @@
 html {
-  padding: 1%; 
+  padding: 3%; 
   background-color: white;
 }
 
@@ -119,7 +119,7 @@ a.navbar_link {
 
 div#footer {
   font-size: x-small;
-  /*text-align: right;*/
+  text-align: right;
   /*background-color: #efefef;*/
   /*border-top: 1px solid #4C4C4C;*/
   margin-top: 5px;

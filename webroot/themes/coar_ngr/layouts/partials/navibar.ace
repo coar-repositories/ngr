@@ -4,19 +4,11 @@ div.row-fluid
       div.navbar-inner
         ul class="nav nav-pills"
           li
-            a.navbar-link href="/" home
+            a.navbar-link href="/" Vision & Objectives
           li
-            a.navbar-link href="/news/" News
-          // li
-          //   a.navbar-link href="/metadata-basics/" Metadata Basics
+            a.navbar-link href="/principle/" Principles
           li
-            a.navbar-link href="/specifications/" DCMI Specifications
-          li
-            a.navbar-link href="/community-and-events/" Community and Events
-          li
-            a.navbar-link href="/support/" Join / Support
+            a.navbar-link href="/behaviour/" Behaviours
           li
             a.navbar-link href="/about/" About
-          form class="navbar-form pull-right form-inline input-sm" action="/search" method="get"
-            input class="form-control input-sm" type="text" name="q" placeholder="quick search...."
     hr
