@@ -1,15 +1,14 @@
 ---
-title: "Batch Discovery"
-date: 2017-09-22T09:31:55-04:00
+title: "Supporting Batch Discovery"
+date: 2017-09-26T20:43:52+01:00
 draft: false
+description: ''
 ---
 
-<span class="highlight">description of the batch discovery behavior....</span>
+description....
 
 ## User stories supported by this behaviour
 > As a user, I want to discover repository materials of interest via aggregators or other search services such as Google, Google Scholar, CORE, and so on.
 
 ## Technologies supporting this behaviour
-<ul>
-  <li><span class="highlight">Technology 1 supports this behaviour in the following way/manner/context</span></li>
-</ul>
+
