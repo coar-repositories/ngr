@@ -5,7 +5,7 @@ draft: false
 description: ''
 ---
 
-description....
+description...
 
 ## User stories supported by this behaviour
 
