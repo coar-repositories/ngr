@@ -3,6 +3,7 @@ title: "Collecting and Exposing Activities"
 date: 2017-09-26T20:48:01+01:00
 draft: false
 description: ''
+weight: 7
 ---
 
 ## Collecting and Exposing Activities

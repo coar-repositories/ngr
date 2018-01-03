@@ -3,6 +3,7 @@ title: "Exposing Standardized Usage Metrics"
 date: 2017-09-26T20:48:11+01:00
 draft: false
 description: ''
+weight: 10
 ---
 
 ## Exposing Standardized Usage Metrics

@@ -3,6 +3,7 @@ title: "Authentication of Users"
 date: 2017-09-26T20:45:56+01:00
 draft: false
 description: ''
+weight: 9
 ---
 
 ## Authentication of Users

@@ -3,6 +3,7 @@ title: "Discovery Through Navigation"
 date: 2017-09-26T20:45:13+01:00
 draft: false
 description: ''
+weight: 3
 ---
 
 ## Discovery through Navigation

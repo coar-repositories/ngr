@@ -3,6 +3,7 @@ title: "Declaring Licenses at the Resource Level"
 date: 2017-09-26T20:45:45+01:00
 draft: false
 description: ''
+weight: 2
 ---
 
 ## Declaring Licenses at the Resource Level

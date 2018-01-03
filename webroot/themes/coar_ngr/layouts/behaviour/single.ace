@@ -6,11 +6,6 @@ div.row-fluid
     {{.Content}}
   div class="col-sm-4 col-xs-12"
     h1 List of defined behaviours
-    ul
-      {{ range (where $.Site.RegularPages "Type" "behaviour") }}
-        li
-          a href="{{.Permalink}}"
-            {{.Title}}
-      {{ end }}
+    {{ partial "behaviours_list" . }}
 
 {{ partial "footer" . }}

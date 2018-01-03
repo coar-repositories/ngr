@@ -3,6 +3,7 @@ title: "Preserving Resources"
 date: 2017-09-26T20:48:23+01:00
 draft: false
 description: ''
+weight: 11
 ---
 
 ## Preserving Resources
