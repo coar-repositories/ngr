@@ -1,68 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>{{.Site.Title}}{{if .Title}}: {{.Title}}{{end}}</title>
-    {{.Hugo.Generator}}
-
-    <link href="https://fonts.googleapis.com/css?family=Fira+Mono:400" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700" rel="stylesheet">
-
-    <!-- Bootstrap -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <link rel="stylesheet" href="/css/main.css" type="text/css" />
-    <link rel="stylesheet" href="/css/tables.css" type="text/css" />
-    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
-    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }} RSS" />
-    <link href="/index.xml" rel="feed" type="application/rss+xml" title="{{ .Site.Title }} RSS" />
-    <!-- <meta name="google-site-verification" content="gC-CBWWuKRpe-1q8OfQfyG_CYkOk_Du8sMdVpWkNVT8" /> -->
-    
-  </head>
-  <body>
-
-    <div class="row-fluid">
-      <div class="col-xs-7">
-        <a href="/"><img src="/images/coar-logo.png" style="max-width: 150px;"/></a>
-        <br/>
-        &nbsp;<i>{{.Site.Params.tagline}}</i>
-      </div>
-      <div class="col-xs-5">
-<!--         <a href="https://www.youtube.com/channel/UCaFJkvrnVj59F66kZ2AhedA/videos" title="Youtube" name="Youtube">
-          <img class="navbar-icon" src="/theme_images/icons/youtube.png"/>
-        </a> -->
-<!--         <a href="https://facebook.com/dublincore/" title="Facebook" name="Facebook">
-          <img class="navbar-icon" src="/theme_images/icons/facebook.png"/>
-        </a>
-        <a href="https://www.linkedin.com/company-beta/1123378/" title="Linkedin" name="LinkedIn">
-          <img class="navbar-icon" src="/theme_images/icons/linkedin.png"/>
-        </a> -->
-        <a href="https://twitter.com/COAR_eV" title="Twitter" name="Twitter">
-          <img class="navbar-icon" src="/theme_images/icons/twitter.png"/>
-        </a>
-        <a href="https://github.com/coar-repositories/ngr" title="Github" name="Github">
-          <img class="navbar-icon" src="/theme_images/icons/github.png"/>
-        </a>
-<!--         <a type="application/rss+xml" href="/index.xml" title="RSS" name="RSS">
-          <img class="navbar-icon" src="/theme_images/icons/rss.png"/>
-        </a> -->
-      </div>
-    </div>
-    <!-- <div class="row-fluid">
-      <div class="col-xs-12">
-        <a href="/">
-          <img class="home-page-logo" src="/images/_site_images/header.png"/>
-        </a>
-      </div>
-    </div> -->
-    {{ partial "navibar" . }}
-
+<div class="row justify-content-between">
+  <div class="col-xs-7">
+    &nbsp;<i>{{.Site.Params.tagline}}</i>
+  </div>
+  <div class="col-xs-5 float-right">
+    <a href="https://twitter.com/COAR_eV" title="Twitter" name="Twitter">
+      <img class="header-icon" src="/theme_images/icons/twitter.png"/>
+    </a>
+    <a href="https://github.com/coar-repositories/ngr" title="Github" name="Github">
+      <img class="header-icon" src="/theme_images/icons/github.png"/>
+    </a>
+  </div>
+</div>
+<div class="row justify-content-start">
+  <div class="col-xs-12">
+    <a href="/">
+      <img class="home-page-logo" src="/images/coar-logo.png"/>
+    </a>
+  </div>
+</div>

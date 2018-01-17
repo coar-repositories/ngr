@@ -1,5 +1,5 @@
 html {
-  padding: 3%; 
+  padding: 1%; 
   background-color: white;
 }
 
@@ -69,10 +69,6 @@ h6 {
 }
 
 
-
-
-
-
 /*HEADER*/
 
 div#logo-and-title {
@@ -91,13 +87,13 @@ div#logo-and-title a#site-title-link img#site-logo {
   width: 50px;
 }
 
-div#header a {
+/*div#header a {
   text-decoration: none;
 }
 
 div#header a:hover {
   text-decoration: underline;
-}
+}*/
 
 div#header a#site-title-link:hover {
   text-decoration: none;
@@ -108,21 +104,25 @@ a#site-title-link {
 }
 
 div#navbar {
-  clear: both;
-  border-bottom: 1px solid #4C4C4C;
-  padding-bottom: 5px;
+  border-bottom: 1px solid #cdcdcd;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-a.navbar_link {
+a.nav_link {
   font-size: 16px;
+  text-decoration: none;
+}
+
+a.nav_link:hover {
+  text-decoration: underline;
 }
 
 div#footer {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #cdcdcd;
   font-size: x-small;
-  text-align: right;
-  /*background-color: #efefef;*/
-  /*border-top: 1px solid #4C4C4C;*/
-  margin-top: 5px;
 }
 
 li.terms-list {
@@ -130,7 +130,7 @@ li.terms-list {
   padding-right: 10px;
 }
 
-img.navbar-icon {
+img.header-icon {
   max-height: 25px;
   float: right;
   margin-top: 0px;
@@ -143,20 +143,12 @@ a.site-title:hover,a.navbar-link:hover {
   text-decoration: underline;
 }
 
-a.navbar-link {
-  text-decoration: none;
-  font-size: medium;
-}
-
-a.navbar-link:hover {
-  text-decoration: underline;
-}
-
 img.home-page-logo {
   margin-top: 10px;
   margin-right: 0px;
   margin-bottom: 2px;
-  max-width: 100%;
+  max-width: 1000px;
+  width: 100%;
 }
 
 div.post-metadata {
@@ -164,10 +156,6 @@ div.post-metadata {
 }
 
 div.members-logo-box {
-  border: 1px solid #4C4C4C;
+  border: 1px solid #cdcdcd;
   padding: 10px;
-}
-
-.highlight {
-  background-color: yellow;
 }

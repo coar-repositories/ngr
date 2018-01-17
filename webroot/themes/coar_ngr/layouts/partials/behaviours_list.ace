@@ -1,6 +1,0 @@
-ol
-  {{ range (where $.Site.RegularPages "Type" "behaviour") }}
-    li
-      a href="{{.Permalink}}"
-        {{.Title}}
-  {{ end }}
