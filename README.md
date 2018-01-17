@@ -4,7 +4,7 @@ These sources can be compiled into a functioning, 'static-HTML' website using [H
 
 
 
-# Instructions for using Hugo with these website sources
+## Instructions for using Hugo with these website sources
 
 ***In the instructions below, `<LOCAL_FOLDER>` refers to the folder containing your checked-put working-copy of this Github repository.***
 
@@ -21,7 +21,7 @@ Any changes committed to this repository, or pushed to this repository from a re
    ```sh
    git clone git@github.com:coar-repositories/ngr.git <LOCAL_FOLDER>
    cd <LOCAL_FOLDER>/webroot
-   hugo server`
+   hugo server
    ```
 
 3. Got to http://localhost:1313/ with your web browser
