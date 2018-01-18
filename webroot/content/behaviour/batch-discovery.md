@@ -16,7 +16,7 @@ Uniform, global, cross-repository discovery of resources is essential to establi
 
 
 ### Technologies, standards and protocols supporting this behaviour
-* ResourceSync [[see behaviour Resource Transfer](resource-transfer/)]
+* ResourceSync [[see behaviour Resource Transfer](/behaviour/resource-transfer/)]
 * Signposting [[see behaviour Exposing Identifiers](/behaviour/exposing-identifiers/)]
 * Sitemaps are widely used by webmasters to inform search engines about pages on their sites that are available for crawling. In its simplest form, a Sitemap is an XML file that lists a URL for each available resource along with optional additional metadata about that resource aimed at optimizing the crawling process (e.g. last modified date, estimated change frequency). Repository managers can use Sitemaps as a straightforward way to expose a repository inventory to search engines. https://www.sitemaps.org/
 
