@@ -17,10 +17,8 @@ params:
   # tagline: "community, metadata, innovation"
   # tagline: "supporting innovation in metadata design, implementation & best practices"
   tagline: "Defining the next generation repository"
-taxonomies:
-  tag: "tags"
-  # creator: "creators"
-  # contributor: "contributors"
+# taxonomies:
+#   technology: "technologies"
 blackfriday:
   smartypants: false
 disablePathToLower: true
