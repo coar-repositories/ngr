@@ -1,0 +1,7 @@
+<ol>
+{{ range (where $.Site.RegularPages "Type" "technology") }}
+  <li>
+    <a href="{{.Permalink}}">{{.Title}}</a>
+  </li>
+{{ end }}
+</ol>

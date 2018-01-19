@@ -1,8 +1,16 @@
 {{ define "main" }}
 <div class="row justify-content-start">
   <div class="col-sm-8 col-xs-12">
-    <h1>Behaviour: {{.Title}}</h1>
     {{.Content}}
+    <h3>Technologies, standards and protocols supporting this behaviour</h3>
+    <ul>
+    {{range .Params.technologies}}
+    	{{$tech_name := printf "%s.md" .}}
+    	{{ with $.Site.GetPage "page" "technology" $tech_name }}
+    		<li><a href="{{.Permalink}}">{{.Title}}</a></li>
+    	{{ end }}
+    {{ end }}
+  	</ul>
   </div>
   <div class="col-sm-4 col-xs-12">
     <h1>List of defined behaviours</h1>

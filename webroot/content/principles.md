@@ -3,9 +3,10 @@ title: "Principles"
 date: 2017-09-22T08:54:33-04:00
 draft: false
 --- 
-## Guiding Principles
 
-The next generation repositories work is based on the following principles: 
+# Guiding Principles
+
+The next generation repositories work is based on the following principles:
 
 ### Distribution of control 
 Distributed control, or governance, of scholarly resources (pre-prints, post-prints, research data, supporting software, etc.) and scholarly infrastructures is an important principle which underpins this work. Without this, a small number of actors can gain too much control and can establish a quasi-monopolistic position. Distributed networks are more sustainable and at less risk to buy-out or failure.
