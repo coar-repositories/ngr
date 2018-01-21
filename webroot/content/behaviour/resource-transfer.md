@@ -4,7 +4,7 @@ date: 2017-09-26T20:48:06+01:00
 draft: false
 description: ''
 weight: 5
-technologies: ["sword","ipfs","resourcesync"]
+technologies: ["resourcesync","sword","ipfs"]
 ---
 
 # Resource Transfer
