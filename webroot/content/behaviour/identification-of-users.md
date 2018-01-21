@@ -4,7 +4,7 @@ date: 2017-09-26T20:45:51+01:00
 draft: false
 description: ''
 weight: 8
-technologies: []
+technologies: ["orcid","social-network-identities","webid"]
 ---
 
 # Identification of Users
