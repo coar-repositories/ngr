@@ -11,4 +11,5 @@ ResourceSync is a specification based on Sitemaps that can be used by repository
 [http://www.openarchives.org/rs/toc](http://www.openarchives.org/rs/toc)
 
 ## Behaviours using this technology
-* ### Batch Discovery [[see (/behaviour/batch-discovery/)]
+
+* Batch Discovery [see (/behaviour/batch-discovery/)]
