@@ -4,7 +4,7 @@ date: 2017-09-26T20:46:12+01:00
 draft: false
 description: ''
 weight: 4
-technologies: []
+technologies: ["activity-streams-2.0","web-annotation-model-and-protocol","iiif"]
 ---
 
 # Interacting with Resources (Annotation, Commentary, and Review)
