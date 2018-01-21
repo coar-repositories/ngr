@@ -4,7 +4,7 @@ date: 2017-09-26T20:45:33+01:00
 draft: false
 description: ''
 weight: 1
-technologies: []
+technologies: ["signposting"]
 ---
 
 # Exposing Identifiers
