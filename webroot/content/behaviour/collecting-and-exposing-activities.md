@@ -4,7 +4,7 @@ date: 2017-09-26T20:48:01+01:00
 draft: false
 description: ''
 weight: 7
-technologies: []
+technologies: ["activity-streams-2.0","linked-data-notifications","resourcesync","signposting","webmention","websub"]
 ---
 
 # Collecting and Exposing Activities
@@ -26,6 +26,6 @@ Repositories should be able to actively and in real-time collect and expose acti
 * Webmention is a simple, point-to-point, trackback/pingback approach aimed at informing a resource that it was linked from another resource. It allows, for example, the establishment of bidirectional links. https://www.w3.org/TR/webmention/
 * WebSub is a publish/subscribe protocol, whereby a publisher posts resource updates to a channel on a hub and the hub subsequently relays those updates to channel subscribers. A repository could publish interactions that took place with its resources on a single channel, or on multiple channels, for example, one per type of activity (e.g. citation, review, annotating). This could be achieved in a manner similar to what is specified for ResourceSync Change Notifications. Aggregating applications could (selectively) subscribe to these repository channels. https://www.w3.org/TR/websub/
 * Other messaging protocols (e.g. AMQP, Kafka) provide a common mechanism for communication between publishers of any kind of Web content and their subscribers
-* We also need to expose user interaction data in standard format and with a common vocabulary.
+* Standard vocabularies are needed to expose user interaction data in standard format.
 
 
