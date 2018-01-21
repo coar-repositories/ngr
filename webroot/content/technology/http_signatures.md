@@ -1,4 +1,3 @@
-
 ---
 title: "HTTP Signatures"
 date: 2017-09-26T20:45:56+01:00
