@@ -12,4 +12,4 @@ ResourceSync is a specification based on Sitemaps that can be used by repository
 
 ## Behaviours using this technology
 
-* Batch Discovery [see (/behaviour/batch-discovery/)]
+* Batch Discovery
