@@ -5,6 +5,6 @@ draft: false
 description: ''
 ---
 
-# IPFS
+### IPFS
 
 IPFS is a promising emerging peer-to-peer hypermedia protocol aimed at making the web faster, safer, and more open. IPFS should be considered as a possible approach for cases where large data collections need to be shared among a number of parties, each of which actively operates an IPFS node. [https://ipfs.io/](https://ipfs.io/)
