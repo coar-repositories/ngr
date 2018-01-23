@@ -12,9 +12,3 @@ Ideally, scholarly objects would be available without constraints on how they ca
 
 ### User stories related to this behaviour
 * As a machine or human user, I need to easily and uniformly identify the licensing and re-use conditions of a scholarly resource, so that I know what I am allowed to do with it.
-
-
-### Technologies, standards and protocols supporting this behaviour
-* Creative Commons Copyright Licenses give everyone from individual creators to large companies and institutions a simple, standardized way to grant copyright permissions to their creative work. The combination of our tools and our users is a vast and growing digital commons, a pool of content that can be copied, distributed, edited, remixed, and built upon, all within the boundaries of copyright law. https://creativecommons.org/licenses/
-
-* Signposting [[see behaviour *Exposing Identifiers*](/behaviour/exposing-identifiers/)]
