@@ -16,9 +16,5 @@ Repositories can increase their value by supporting commentary, annotation and p
 * As a funding institution, I want to be able to access the reviews (and metrics) of resources created by specific authors. 
 
 ### Technologies, standards and protocols supporting this behaviour
-* Activity Streams 2.0 is an approach to describe interactions with resources, including commenting, liking, sharing, etc. Interactions are expressed as JSON-LD and use the Activity Streams 2.0 vocabulary. While this core vocabulary is targeted at general social web activities, extensions can be created to supported scholarly use cases. https://www.w3.org/TR/activitystreams-core/ ; https://www.w3.org/TR/activitystreams-vocabulary/
-* Web Annotation Model and Web Annotation Protocol specify an approach to express annotations (including commentary, review, etc.) and an associated protocol to create and manage them. Annotations are expressed using an RDF-based vocabulary and can be rendered as JSON-LD. The protocol is based on HTTP and adheres to REST design principles. https://www.w3.org/TR/annotation-model/ ; https://www.w3.org/TR/annotation-protocol/
-* International Image Interoperability Framework (IIIF) is a family of APIs that enable easy reuse, share and interaction with images for annotation, transcription, composing, authenticated access, etc. Despite to be a technology relevant for specific kind of content in the repository we believe it is a good example of technology to highlight to emphasize the distributed nature of the Next Generation Repositories. http://iiif.io/
+
 * With regard to technologies aimed at informing a repository that overlay content was created, and the manner in which a repository can expose this information, see [[behaviour *Collecting and Exposing Activity Metadata*](/behaviour/collecting-and-exposing-activities/)]. 
-
-
