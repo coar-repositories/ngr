@@ -4,7 +4,7 @@ date: 2017-09-26T20:45:56+01:00
 draft: false
 description: ''
 weight: 9
-technologies: ["http-signatures","openid-connect","webid/tls"]
+technologies: ["http-signatures","openid-connect","webid-tls"]
 ---
 
 # Authentication of Users
