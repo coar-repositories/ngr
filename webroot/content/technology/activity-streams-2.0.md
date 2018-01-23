@@ -1,5 +1,5 @@
 ---
-title: "aActivity Streams 2.0"
+title: "Activity Streams 2.0"
 date: 2017-09-26T20:45:56+01:00
 draft: false
 description: ''
