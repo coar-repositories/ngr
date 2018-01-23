@@ -13,6 +13,3 @@ A scholarly object presents itself on the web as a bundle of resources, each wit
 ### User stories related to this behaviour
 * As a human or machine user, I want to easily and uniformly discovery the metadata in a repository record, so that I can ascertain the relevance of the resource.
 * As a repository manager, I want to be able to access the metadata in my repository in real time through an API in order to build views or services on any platform using the data.
-
-### Technologies, standards and protocols supporting this behaviour
-* Signposting [[see behaviour *Exposing Identifiers*](/behaviour/exposing-identifiers/)]
