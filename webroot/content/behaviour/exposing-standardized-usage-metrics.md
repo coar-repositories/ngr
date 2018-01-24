@@ -4,7 +4,7 @@ date: 2017-09-26T20:48:11+01:00
 draft: false
 description: ''
 weight: 10
-technologies: ["counter","sushi","etag","usage-metrics-service-providers"]
+technologies: ["counter","sushi","etag"]
 ---
 
 # Exposing Standardized Usage Metrics
@@ -21,8 +21,5 @@ Exposing usage metrics can be done in either of two modes: pull mode (for exampl
 
 ### Technologies, standards and protocols supporting this behaviour
 * For technologies needed to support transfer of resources into preservation platforms, [[see behaviour *Resource Transfer*](/behaviour/resource-transfer/)]
-* COUNTER provides the standard that enables the knowledge community to count the use of electronic resources. Known as the Code of Practice, the standard ensures vendors and publishers can provide their library customers with consistent, credible and comparable usage data. https://www.projectcounter.org/
-* SUSHI (Standardized Usage Statistics Harvesting Initiative) is an ANSI/NISO Standard that defines automated request and response model for harvesting e-resource usage data. It is designed to work with COUNTER, the most frequently retrieved usage reports.
-* ETag or entity tag is part of HTTP, the protocol for the World Wide Web. It is one of several mechanisms that HTTP provides for web cache validation, which allows a client to make conditional requests. This allows caches to be more efficient, and saves bandwidth, as a web server does not need to send a full response if the content has not changed. ETags can also be used for optimistic concurrency control, as a way to help prevent simultaneous updates of a resource from overwriting each other. This is relevant to support central systems from fetching only new data about metrics. https://en.wikipedia.org/wiki/HTTP_ETag
 * Usage metrics service provider for repositories (IRUS-UK http://irus.mimas.ac.uk/; OpenAIRE using Piwik https://piwik.org/; RAMP - Repository Analytics and Metrics Portal http://ramp.montana.edu/
 
