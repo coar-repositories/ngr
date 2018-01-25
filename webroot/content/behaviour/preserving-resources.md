@@ -7,7 +7,7 @@ weight: 11
 technologies: []
 ---
 
-# Preserving Resources
+## Preserving Resources
 Open access means not just that you can have access to things today, but also into the future. We can envision preservation services that will support repository operations within a network. Not every repository needs to run its own preservation processing stack, but rather we need common standards, protocols and interoperability that will enable us to build these services for repositories in a collective way. Additionally it is necessary to preserve the complex interconnection of resources, which involves preservation activities at various levels including the resource, metadata and information graph. Furthermore, through enhanced clients and embedding new technology in information creation and communication platforms, capture and preserve content creation in real-time. Repositories should try obtaining the most reusable format (e.g. latex, TEI rather than a PDF) by validating how manuscripts were created, such as it is currently done by arXiv.org (DDI instead of SPSS or XLSX) and encouraging the deposition of that format.  
 
 ### User stories related to this behaviour
