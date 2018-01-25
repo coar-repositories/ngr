@@ -7,6 +7,7 @@ description: ''
 
 # Design Assumptions
 
+
 ### Focus on the resources themselves, not just associated metadata
 For historical reasons, technical solutions have focused on metadata that describes scholarly resources instead of on the resources themselves. By considering both the scholarly resource and its metadata as web resources identified by distinct URIs, they can be treated on equal footing and can be appropriately interlinked.
 
