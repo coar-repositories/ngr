@@ -7,7 +7,7 @@ weight: 5
 technologies: ["resourcesync","sword","ipfs"]
 ---
 
-# Resource Transfer
+## Resource Transfer
 
 The vision for next-generation repositories strongly emphasises a resource-centric paradigm, where resources are not arbitrarily copied from system to system but are, rather, referenced where they are. However, there are use cases where the copying of resources (metadata, content or both) is necessary, generally to avoid the problem of network latency, to support functions which operate simultaneously on large numbers of resources, where those resources are distributed across many repositories.
 
