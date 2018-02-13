@@ -95,6 +95,10 @@ div#header a:hover {
   text-decoration: underline;
 }*/
 
+div#header {
+  margin-top: 20px;
+}
+
 div#header a#site-title-link:hover {
   text-decoration: none;
 }
@@ -147,8 +151,15 @@ img.home-page-logo {
   margin-top: 2px;
   margin-right: 0px;
   margin-bottom: 2px;
+  /*max-width: 150px;*/
+}
+
+img.coar-logo {
+  max-width: 2000px;
+}
+
+img.ngr-logo {
   max-width: 150px;
-  /*width: 100%;*/
 }
 
 div.post-metadata {
