@@ -10,7 +10,7 @@ These sources can be compiled into a functioning, 'static-HTML' website using [H
 
 [The Hugo documentation is comprehensive and useful.](https://gohugo.io/documentation/)
 
-Any changes committed to this repository, or pushed to this repository from a remote checked out copy, will **automatically** rebuild the website at [http://ngr.antleaf.com](http://ngr.antleaf.com) (note that this is a ***temporary address*** - the website will be moved from here when it is ready to 'go live').
+Any changes committed to this repository, or pushed to this repository from a remote checked out copy, will **automatically** rebuild the website at [http://ngr.coar-repositories.org](http://ngr.coar-repositories.org).
 
 ### Serving the website on your local machine with Hugo
 
