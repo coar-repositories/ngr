@@ -8,7 +8,7 @@
     <ul>
     {{range .Params.technologies}}
       {{$tech_name := printf "%s.md" .}}
-      {{ with $.Site.GetPage "page" "technology" $tech_name }}
+      {{ with $.Site.GetPage (print "technology/" $tech_name) }}
         <li><a href="{{.Permalink}}">{{.Title}}</a></li>
       {{ end }}
     {{ end }}
