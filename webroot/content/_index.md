@@ -3,6 +3,7 @@ title: "Vision and Objectives "
 date: 2017-09-22T08:54:33-04:00
 draft: false
 ---
+
 ## Vision
 To position repositories as the foundation for a distributed, globally networked infrastructure for scholarly communication, on top of which layers of value added services will be deployed, thereby transforming the system, making it more research-centric, open to and supportive of innovation, while also collectively managed by the scholarly community.
 
