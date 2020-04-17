@@ -1,0 +1,91 @@
+---
+title: "User Stories"
+date: 2017-09-22
+draft: false
+---
+
+## Discovering​ ​metadata​ ​that​ ​describes​ ​a​ ​scholarly​ ​resource
+
+As a human or machine user, I want to easily and uniformly identify the metadata in a repository​ ​record,​ ​so​ ​that​ ​I​ ​can​ ​ascertain​ ​the​ ​relevance​ ​of​ ​the​ ​resource.
+[read more....](/user_stories/identify_the_metadata_in_a_repository_record/)
+
+As a repository manager, I want to be able to access the metadata in my repository in real time through an API in order to build views or services on any platform using the data.
+[read more....](/user_stories/access_the_metadata_in_my_repository_in_real_time_through_an_api/)
+
+As a research manager (funder of institution), I want to be able to track the research outputs​ ​related​ ​to​ ​a​ ​specific​ ​funded​ ​project.
+[read more....](/user_stories/track_the_research_outputs​_​related​_​to​_​a​_​specific​_​funded​_​project/)
+
+
+## Batch-based​ ​content​ ​discovery
+
+As a user, I want to discover repository materials of interest via aggregators or other search​ ​services​ ​such​ ​as​ ​Google,​ ​Google​ ​Scholar,​ ​CORE,​ ​and​ ​so​ ​on.
+[read more....](/user_stories/discover_repository_materials_of_interest_via_aggregators_or_search_services/)
+
+
+## Discovering​ ​the​ ​identifier​ ​of​ ​a​ ​scholarly​ ​resource
+
+As a web reference manager, annotation tool, or crawler, when I encounter a landing page or any other web resource that is part of a scholarly object, I need to easily identify the​ ​associated​ ​persistent​ ​HTTP​ ​URI​ ​for​ ​the​ ​resource,​ ​so​ ​that​ ​I​ ​can​ ​retrieve​ ​it.
+[read more....](/user_stories/identify_the​_​associated​_​persistent​_​http​_​uri​_​for​_a_​resource/)
+
+
+## Discovering​ ​usage​ ​rights
+
+As​ ​a​ ​machine​ ​or​ ​human​ ​user,​ ​I​ ​need​ ​to​ ​easily​ ​and​ ​uniformly​ ​identify​ ​the​ ​licensing​ ​and re-use​ ​conditions​ ​of​ ​a​ ​scholarly​ ​resource,​ ​so​ ​that​ ​I​ ​know​ ​what​ ​I​ ​am​ ​allowed​ ​to​ ​do​ ​with​ ​it.
+[read more....](/user_stories/identify​_​the​_​licensing​_​and_re-use​_​conditions​_​of​_​a​_​scholarly​_​resource/)
+
+
+## Recognizing​ ​the​ ​user
+
+As a user, I want my repository to recognize me and others so that I can be connected with other users who I know, leave comments and be informed of content that is of interest​ ​to​ ​me.
+[read more....](/user_stories/be_identified_by_the_repository_to_enable_social_networking/)
+
+
+## Commenting,​ ​annotating,​ ​and​ ​peer-review
+
+As a user, I want to be able to comment on or review the work of my colleagues and have those reviews (and reviewers) publicly available to other readers, so that the quality of these​ ​a​ ​resource​ ​can​ ​be​ ​assessed​ ​by​ ​others.
+[read more....](/user_stories/publicly_review_and_comment_on_resources/)
+
+
+## Automated​ ​recommender​ ​systems​ ​for​ ​repositories
+
+As​ ​a​ ​user,​ ​I​ ​want​ ​to​ ​receive​ ​recommendations​ ​about​ ​content​ ​that​ ​is​ ​of​ ​potential​ ​interest to​ ​me​ ​and​ ​related​ ​to​ ​my​ ​work,​ ​so​ ​I​ ​increase​ ​my​ ​knowledge​ ​in​ ​my​ ​field.
+[read more....](/user_stories/receive_recommendations_about_resources_of_interest_to_me/)
+
+
+## Providing​ ​a​ ​social​ ​notification​ ​feed
+
+As a repository user, I want to have access to a global, cross-repository social feed so that​ ​I​ ​am​ ​informed​ ​about​ ​activities​ ​in​ ​which​ ​I​ ​have​ ​registered​ ​an​ ​active​ ​interest.
+[read more....](/user_stories/subscribe_to_cross-repository_feeds_of_information_about_new_resources/)
+
+
+## Resource​ ​syncing​ ​and​ ​notification
+
+As a repository manager, I want my repository to be automatically notified about new or modified relevant objects and metadata, so that I can have a more complete and accurate collection. I also want other, remote systems to be notified of changes made to my collection​ ​to​ ​ensure​ ​that​ ​records​ ​are​ ​standardized​ ​across​ ​various​ ​locations.
+[read more....](/user_stories/notify_repository_automatically_about_new_resources/)
+
+
+## ​Text​ ​and​ ​data​ ​mining
+
+As a human or machine user, I want to be able to mine the collective full text content of repositories​ ​to​ ​discover​ ​new​ ​relationships​ ​and​ ​make​ ​new​ ​discoveries.
+[read more....](/user_stories/mine_the_collective_full_text_content_of_repositories​/)
+
+
+## ​Easing​ ​the​ ​deposit​ ​process
+
+As​ ​a​ ​researcher​ ​or​ ​repository​ ​manager,​ ​I​ ​want​ ​to​ ​deposit​ ​my​ ​research​ ​object​ ​with​ ​as​ ​little effort​ ​as​ ​possible​ ​into​ ​the​ ​repository​ ​platform.
+[read more....](/user_stories/easily_deposit​_​research​_​object​s/)
+
+
+## ​Measuring​ ​usage
+
+As​ ​a​ ​researcher,​ ​I​ ​want​ ​to​ ​know​ ​how​ ​many​ ​times​ ​a​ ​repository​ ​object​ ​has​ ​been downloaded​ ​and​ ​used​ ​by​ ​others​ ​according​ ​to​ ​standard​ ​metrics.
+[read more....](/user_stories/see_standard_metrics_about_downloads_of_resources/)
+
+As​ ​a​ ​research​ ​administrator,​ ​I​ ​wish​ ​to​ ​use​ ​a​ ​broader​ ​variety​ ​of​ ​measures​ ​to​ ​assess impact​ ​including​ ​repository​ ​metrics​ ​and​ ​incorporate​ ​them​ ​in​ ​my​ ​reports​ ​that​ ​assess​ ​the impact​ ​of​ ​the​ ​research​ ​I​ ​support.
+[read more....](/user_stories/access_a_broad_​variety​_​of​_​measures​_​to​_​assess_impact​/)
+
+
+## Preservation
+
+As​ ​a​ ​scholar​ ​or​ ​institution,​ ​I​ ​want​ ​my​ ​research​ ​outputs​ ​to​ ​be​ ​available​ ​over​ ​the​ ​long​ ​term and​ ​remain​ ​as​ ​a​ ​permanent​ ​part​ ​of​ ​the​ ​scholarly​ ​record.
+[read more....](/user_stories/have_my_research_outputs_preserved_for_the_long_term/)

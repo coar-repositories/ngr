@@ -1,0 +1,14 @@
+{{ define "main" }}
+<div class="row justify-content-start">
+  <div class="col">
+    <h1>User Stories</h1>
+    {{.Content}}
+
+    {{ range (where $.Site.RegularPages "Type" "user_stories") }}
+      <!-- <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3> -->
+      <h3>{{ .Title }}</h3>
+      <blockquote>{{ .Description }}</blockquote>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

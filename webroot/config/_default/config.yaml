@@ -1,0 +1,58 @@
+languageCode: "en-gb"
+uglyURLs: false
+title: "COAR Next Generation Repositories"
+enableRobotsTXT: true
+metaDataFormat: "yaml"
+theme: "coar_ngr"
+enableGitInfo: false
+disqusShortname: "paulwalk"
+blackfriday:
+  smartypants: false
+  smartDashes: false
+  extensionsmask: ["autolink"] #disables these extensions
+disablePathToLower: true
+permalinks:
+  # post: /:year/:month/:day/:title/
+taxonomies:
+  tag: "tags"
+  topic: "topics"
+params:
+  tagline: "Defining the next generation repository"
+  AuthorName: "Paul Walk"
+  pageSize: "10"
+markup:
+  defaultMarkdownHandler: blackFriday
+  # defaultMarkdownHandler: goldmark
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: false
+    parser:
+      attribute: true
+      autoHeadingID: true
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xHTML: false
+  blackFriday:
+    angledQuotes: false
+    extensions: null
+    extensionsMask: null
+    footnoteAnchorPrefix: ""
+    footnoteReturnLinkContents: ""
+    fractions: true
+    hrefTargetBlank: false
+    latexDashes: true
+    nofollowLinks: false
+    noreferrerLinks: false
+    plainIDAnchors: true
+    skipHTML: false
+    smartDashes: true
+    smartypants: true
+    smartypantsQuotesNBSP: false
+    taskLists: true

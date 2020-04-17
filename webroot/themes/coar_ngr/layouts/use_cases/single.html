@@ -1,0 +1,32 @@
+{{ define "main" }}
+  <div class="row">
+  	<div class="col-lg-9">
+      <h2>Summary</h2>
+    	{{ .Description }}
+  	</div>
+    <div class="col-lg-3">
+      {{ with .Params.contributors }}
+        <h2>Contributors</h2>
+        <ul>
+        {{ range . }}
+          <li>{{ . | markdownify }}</li>
+        {{ end }}
+        </ul>
+      {{ end }}
+
+      {{ with .Params.references }}
+        <h2>Resources</h2>
+        <ul>
+        {{ range . }}
+          <li>{{ . | markdownify }}</li>
+        {{ end }}
+        </ul>
+      {{ end }}
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      {{ .Content }}
+    </div>
+  </div>
+{{ end }}

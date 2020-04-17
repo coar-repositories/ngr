@@ -1,0 +1,10 @@
+{{ define "main" }}
+  <div class="row">
+    <div class="col">
+    	{{ range (where $.Site.RegularPages "Type" "use_cases") }}
+        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+        <blockquote>{{ .Description }}</blockquote>
+      {{ end }}
+    </div>
+  </div>
+{{ end }}
