@@ -1,4 +1,4 @@
-baseurl: "http://ngr.coar-repositories.org"
+baseurl: "https://ngr.coar-repositories.org"
 # googleAnalytics: "UA-37062056-9"
 params:
   showPageStatusTags: false

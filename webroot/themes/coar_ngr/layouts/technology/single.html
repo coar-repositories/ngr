@@ -5,10 +5,10 @@
   </div>
   <div class="col-sm-4 col-xs-12">
     <h2>Related behaviours</h2>
-    {{ $technology_name := slice .File.TranslationBaseName }}
+    {{ $technology_name := slice (lower .Name) }}
     <ul>
     {{ range where .Site.Pages ".Params.technologies" "intersect" $technology_name }}
-      <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
     {{ end }}
     </ul>
   </div>

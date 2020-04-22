@@ -4,7 +4,7 @@ date: 2020-03-22
 draft: false
 contributors: [Saskia Woutersen,Frans Oort,Max Haring,Jeroen Sondervan]
 references: []
-description: University Journals
+description: University journals will not only publish articles, but also data, methods, software etc. and needs to connect to different kinds of repositories.
 ---
 
 ## Description
@@ -18,7 +18,7 @@ description: University Journals
 | Data repository Figshare                        | https://uvaauas.figshare.com/  | DOI                                    |
 | CRIS-Pure                                       | http://pure.uva.nl/admin       | Handle                                 |
 
-University journals will not only publish articles, but also data, methods, software etc. and needs to connect to different kinds of repositories.
+
 
 <img src="./diagram1.png" style="width: 90%"/>
 
