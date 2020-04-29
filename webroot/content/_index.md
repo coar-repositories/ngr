@@ -13,4 +13,4 @@ Our vision rests on making the resource, rather than the repository, the focus o
 ## Objectives
 * To achieve a level of cross-repository interoperability by exposing uniform behaviours across repositories that leverage web-friendly technologies and architectures, and by integrating with existing global scholarly infrastructures specifically those aimed at identification of e.g. contributions, research data, contributors, institutions, funders, projects.
 * To encourage the emergence of value added services that use these uniform behaviours to support discovery, access, annotation, real-time curation, sharing, quality assessment, content transfer, analytics, provenance tracing, etc.
-* To help transform the scholarly communication system by emphasizing the benefits of collective, open and distributed management, open content, uniform behaviours, real-time dissemination, and collective innovation.
+* To help transform the scholarly communication system by emphasizing the benefits of collective, open and distributed management, open content, uniform behaviours, real-time dissemination, and collective innovation
