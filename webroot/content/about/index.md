@@ -8,9 +8,7 @@ aliases:
 
 # About
 
-This website contains technical documentation from the [COAR Next Generation Repository Working Group](https://www.coar-repositories.org/activities/advocacy-leadership/working-group-next-generation-repositories/).
-
-For more background information about this work, and a list of initiatives that are working on implementation of Next Generation Repositories, visit the COAR website: https://www.coar-repositories.org/activities/advocacy-leadership/working-group-next-generation-repositories/
+This website contains technical documentation from the [COAR Next Generation Repository Working Group](https://www.coar-repositories.org/news-updates/what-we-do/next-generation-repositories/).
 
 ## How to contribute
 This website is automatically built and deployed from sources in this Github repository:
