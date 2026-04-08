@@ -3,3 +3,4 @@
 /webroot/.hugo_build.lock
 /webroot/resources/
 /webroot/public/
+/.run/

@@ -1,4 +1,4 @@
-languageCode: "en-gb"
+locale: "en-gb"
 uglyURLs: false
 title: "COAR Next Generation Repositories"
 enableRobotsTXT: true
@@ -18,7 +18,8 @@ taxonomies:
   topic: "topics"
 params:
   tagline: "Defining the next generation repository"
-  AuthorName: "Paul Walk"
+  author:
+    email: paul@antleaf.com
   pageSize: "10"
 markup:
   defaultMarkdownHandler: goldmark
